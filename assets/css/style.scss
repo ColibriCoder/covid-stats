@@ -1,0 +1,21 @@
+@import "custom";
+@import "~bootstrap/scss/bootstrap.scss";
+
+html, body {
+  background-color: #fdfdfd;
+//background: red;
+}
+
+.pagination {
+  overflow: scroll;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.pagination::-webkit-scrollbar {
+  display: none;
+}
+
+.full-list-btn {
+  min-width: 60px;
+}
