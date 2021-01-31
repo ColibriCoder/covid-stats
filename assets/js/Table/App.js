@@ -58,7 +58,6 @@ class App extends React.Component {
     }
 
     sortBy(key) {
-        // this.setState({statsIsLoading: true});
         this.setState({
             stats: this.state.data.sort((a, b) => {
                 if (typeof a[key] === 'string') {
